@@ -96,6 +96,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {},
       },
     ],
   ],
@@ -104,15 +105,6 @@ module.exports = {
       require.resolve('@easyops-cn/docusaurus-search-local'),
         {
           hashed: true,
-        }
-    ],
-    [
-      '@docusaurus/plugin-sitemap',
-        {
-          cacheTime: 600 * 1000,
-          changefreq: 'weekly',
-          priority: 0.5,
-          trailingSlash: false,
         }
     ]
   ]
