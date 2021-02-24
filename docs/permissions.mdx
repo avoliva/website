@@ -1,0 +1,32 @@
+---
+id: permissions
+title: Permissions
+---
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
+
+AttoBot requires the following permissions in order to work properly:
+
+<Tabs
+  defaultValue="general"
+  values={[
+    {label: 'General', value: 'general'},
+    {label: 'Text', value: 'text'},
+    {label: 'Voice', value: 'voice'}
+  ]}>
+  <TabItem value="general">
+      Kick Members; Ban Members; Manage Nicknames; View Audit Log
+  </TabItem>
+  <TabItem value="text">
+      Send Messages; Manage Messages; Embed Links; Attach Files; Read Message History; Add Reactions; Use External Emojis
+  </TabItem>
+  <TabItem value="voice">
+      Connect; Speak; Use Voice Activity
+  </TabItem>
+</Tabs>
+
+:::tip
+To disable AttoBot in some channels, just revoke its permissions to view the channel and read the message history in that channel.
+Commands executed in channels which AttoBot has no send messages permissions but has view channel permissions, will have its output DMed to the author.
+:::
