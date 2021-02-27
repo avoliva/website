@@ -1,6 +1,6 @@
 ---
 id: privacy-policy
-name: Privacy Policy
+title: Privacy Policy
 ---
 
 AttoBot collects information from you, users, from [Discord](https://discord.com) in order for some functionality to work. These information are needed so that AttoBot could keep track of who owns who, and who's what is whose. Discord itself does not disclose critical information you've sent to them to us, developers, when interacting with the API. However, there might be times that you became paranoid of how some bot you use collect data, how & where do they post it?
