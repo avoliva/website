@@ -33,3 +33,6 @@ Use the a!report command to send it to us! Thank you for your feedback!
 
 ## Is there any premium features?
 The bot is 100% free, and there are no premium features, but donations are highly appreciated.
+
+## How do AttoBot collect user data?
+Please see the Privacy Policy.
