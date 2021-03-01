@@ -84,6 +84,11 @@ module.exports = {
     {
       src: 'https://arc.io/widget.min.js#V34Ysous',
       async: true,
+    },
+    {
+      src: '//acacdn.com/script/suv4.js',
+      'data-adel': 'lwsu',
+      zid: '4196687'
     }
   ],
   presets: [
